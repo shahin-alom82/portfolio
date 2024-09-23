@@ -6,11 +6,11 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 const About = () => {
       return (
             <div>
-                  <Container id="about" className="py-20">
+                  <Container id="about" className="py-20 lg:px-20">
                         <SectionTitle titleNo={"01 ."} title={"About me"}></SectionTitle>
                         <div className="flex flex-col lg:flex-row justify-between items-center lg:items-start">
                               <div className="lg:w-2/3 w-full">
-                                    <h1 className="mt-6 text-[18px] text-darkText">
+                                    <h1 className="mt-6 text-[16px] text-darkText">
                                           Hello! My name is Noor Mohammad and I enjoy creating things that live on the internet. My interest in web development started back in 2012 when I decided to try editing custom Tumblr themes — turns out hacking together a custom reblog button taught me a lot about <br /> HTML & CSS!
                                     </h1>
                                     <h1 className="mt-5 text-[18px] text-darkText">
@@ -23,7 +23,7 @@ const About = () => {
                                           Here are a few technologies I have been working with recently:
                                     </h1>
 
-                                    <div className="mt-10 flex flex-col lg:flex-row gap-24 text-[18px]">
+                                    <div className="mt-10 flex flex-col lg:flex-row gap-24 text-[16px]">
                                           <div className="space-y-2">
                                                 <div className="flex gap-2 items-center">
                                                       <FaArrowAltCircleRight className="text-designColor" />
@@ -65,7 +65,7 @@ const About = () => {
                               </div>
 
                               <div className="mt-10 lg:mt-0 ">
-                                    <img className="lg:h-[500px] bg-white border-4 hover:bg-cyan-300 w-[350px] hover:backdrop-hue-rotate-30 duration-300 hover:border-8 hover:shadow-xl hover:shadow-designColor border-designColor rounded-full" src="https://i.ibb.co/y5hLCHT/448803900-991780162595052-2271124324976378812-n-removebg-preview.png" alt="" />
+                                    <img className="lg:h-[400px] bg-white border-4 hover:bg-cyan-300 w-[300px] hover:backdrop-hue-rotate-30 duration-300 hover:border-8 hover:shadow-xl hover:shadow-designColor border-designColor rounded-full" src="https://i.ibb.co/y5hLCHT/448803900-991780162595052-2271124324976378812-n-removebg-preview.png" alt="" />
                               </div>
                               
                         </div>

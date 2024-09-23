@@ -1,9 +1,7 @@
 import About from "../About/About";
 import Banner from "../Banner/Banner";
-import Client from "../Client/Client";
 import Education from "../Education/Education";
 import Email from "../Email/Email";
-import Experience from "../Experience/Experience";
 import Header from "../Header/Header";
 import OtherSection from "../Other/Other";
 import Projects from "../Projects/Projects";
@@ -18,7 +16,6 @@ const Home = () => {
                   <About />
                   {/* <Experience /> */}
                   <Projects />
-                  <Client/>
                   <ScrollBar />
                   <OtherSection />
                   <Skils/>

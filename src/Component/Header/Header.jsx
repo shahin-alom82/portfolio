@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { useRef, useState } from "react";
 import { MdOutlineClose } from "react-icons/md";
 import SocialLInks from "../Link/Link";
+import { pdf } from "../../assets";
 
 const navLink = [
       { title: "Home", path: "home", value: "", },
@@ -26,7 +27,7 @@ const Header = () => {
             }
       };
       return (
-            <div className="h-20 shadow-lg shadow-designColor/10 px-4 lg:px-0 sticky top-0 z-50">
+            <div className="h-20 shadow-lg shadow-designColor/10 px-4 lg:px-0 sticky top-0 z-50 bg-[#0A192F] opacity-85">
                   <div className="max-w-[1440px] mx-auto flex items-center h-full justify-between">
                         <img
                               src="https://i.ibb.co/xLCnM8z/letter-s-logo-design-for-business-and-company-identity-with-luxury-concept-free-vector-removebg-prev.png"
@@ -120,7 +121,7 @@ const Header = () => {
                                                             </Link>
                                                       ))}
                                                 </ul>
-                                                <a href="" target="_blank">
+                                                <a href={pdf} download={pdf} target="_blank">
                                                       <motion.button
                                                             initial={{ opacity: 0 }}
                                                             animate={{ opacity: 1 }}
@@ -139,7 +140,7 @@ const Header = () => {
                                                       href="mailto:noor.jsdivs@gmail.com"
                                                 >
                                                       <p className="text-darkText hover:text-designColor hover:underline underline-offset-4 duration-200">
-                                                           shahinalom3511371@gmail.com
+                                                            shahinalom3511371@gmail.com
                                                       </p>
                                                 </motion.a>
                                           </div>

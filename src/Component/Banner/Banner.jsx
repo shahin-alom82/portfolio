@@ -20,7 +20,7 @@ const Banner = () => {
 
             <div>
                   <LeftSiteNavbar></LeftSiteNavbar>
-                  <Container id="home" className="py-10 md:py-32 flex flex-col gap-4 lg:gap-4">
+                  <Container id="home" className="py-10 md:py-32 flex flex-col gap-4 lg:gap-4 lg:px-20">
 
                         <motion.div
                               initial={{ y: 10, opacity: 0 }}
@@ -55,9 +55,9 @@ const Banner = () => {
 
 
 
-                        <div className="text-yellow-100 text-center rounded-lg w-full">
+                        <div className="text-cyan-300 text-center rounded-lg w-full">
                               <Marquee gradient={false}>
-                                    <div className="lg:text-[20px] cursor-pointer mt-3">
+                                    <div className="lg:text-[18px] cursor-pointer mt-3">
                                           <ul>
                                                 {[
                                                       "HTML-CSS",
