@@ -12,15 +12,15 @@ const OtherSection = () => {
                   title: "Match-Box",
                   description:
                         "With supporting text below as a natural lead-in to additional content.",
-                  tech: ["React.js", "Tailwind CSS", "Node.js"],
+                  tech: ["HTML", "CSS", "Tailwind CSS", "React.js", "Node.js"],
                   link: "https://fancy-cassata-c6fd63.netlify.app/",
             },
             {
-                  title: "Online-Merket-Place",
+                  title: "E-Commerce Shofy",
                   description:
                         "With supporting text below as a natural lead-in to additional content.",
-                  tech: ["React.js", "Tailwind CSS", "Node.js"],
-                  link: "https://abcdremarkable-weather.surge.sh/",
+                  tech: ["HTML", "CSS", "Tailwind CSS", "Next.js", "Node.js", "Redux Tolkit", "Next Auth"],
+                  link: "https://github.com/shahin-alom82/E-Commerce-Shofy",
             },
             {
                   title: "Summer-Sall",
@@ -38,18 +38,18 @@ const OtherSection = () => {
             },
 
             {
-                  title: "Match-Box",
+                  title: "E-Commerce Smart",
                   description:
                         "With supporting text below as a natural lead-in to additional content.",
-                  tech: ["React.js", "Tailwind CSS", "Node.js"],
-                  link: "https://fancy-cassata-c6fd63.netlify.app/",
+                  tech: ["HTML", "CSS", "Tailwind CSS", "Next.js", "Node.js", "Redux Tolkit", "Next Auth"],
+                  link: "https://ecommercesmart.vercel.app/",
             },
             {
-                  title: "Online-Merket-Place",
+                  title: "E-Commerce Shopping",
                   description:
                         "With supporting text below as a natural lead-in to additional content.",
-                  tech: ["React.js", "Tailwind CSS", "Node.js"],
-                  link: "https://abcdremarkable-weather.surge.sh/",
+                  tech: ["HTML", "CSS", "Tailwind CSS", "Next.js", "Node.js", "Redux Tolkit", "Next Auth"],
+                  link: "https://ecommerceshopping.vercel.app/",
             },
             {
                   title: "Summer-Sall",
