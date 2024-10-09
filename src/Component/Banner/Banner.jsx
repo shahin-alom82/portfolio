@@ -20,7 +20,7 @@ const Banner = () => {
 
             <div>
                   <LeftSiteNavbar></LeftSiteNavbar>
-                  <Container id="home" className="py-10 md:py-32 flex flex-col gap-4 lg:gap-4 lg:px-20">
+                  <Container id="home" className="py-10 md:py-20 flex flex-col gap-4 lg:gap-4 lg:px-20">
 
                         <motion.div
                               initial={{ y: 10, opacity: 0 }}
