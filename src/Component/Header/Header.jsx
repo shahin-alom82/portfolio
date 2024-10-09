@@ -62,7 +62,7 @@ const Header = () => {
                                           </Link>
                                     ))}
                               </div>
-
+                              {/* <h1></h1> */}
                               {/* Resume Button */}
                               <motion.a
                                     initial={{ opacity: 0 }}
