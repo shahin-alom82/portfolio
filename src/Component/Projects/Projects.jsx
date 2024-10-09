@@ -31,10 +31,10 @@ const Project = () => {
             },
             {
                   img: img4,
-                  title: "Todo-Application",
-                  tech: ["Next.js", "TypeScript", "Redux"],
-                  liveLink: "https://todoapplicationapp.vercel.app/",
-                  githubLink: "https://github.com/shahin-alom82/todo-practice",
+                  title: "E-Commerce-Smart",
+                  tech: ["Next.js", "Redux Tolkit", "Next Auth", "Persist Store"],
+                  liveLink: "https://ecommercesmart.vercel.app/",
+                  githubLink: "https://github.com/shahin-alom82/e.commerce-smart",
             },
       ];
 

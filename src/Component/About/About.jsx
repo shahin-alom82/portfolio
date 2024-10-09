@@ -12,7 +12,7 @@ const About = () => {
                               <div className="lg:w-2/3 w-full">
 
                                     <h1 className="mt-5 text-[18px] text-darkText">
-                                          I am a Junior Frontend Developer with a strong foundation in HTML, CSS, and React.js. I specialize in creating interactive and user-friendly web applications, and I'm currently expanding my skills in Next.js and TypeScript. Passionate about seamless user experiences and web performance, I use Tailwind CSS for responsive design and integrate various libraries to enhance functionality. I stay updated with industry trends to deliver modern, cutting-edge solutions.
+                                          I am a Frontend Developer with a strong foundation in HTML, CSS, and React.js. I specialize in creating interactive and user-friendly web applications, and I'm currently expanding my skills in Next.js and TypeScript. Passionate about seamless user experiences and web performance, I use Tailwind CSS for responsive design and integrate various libraries to enhance functionality. I stay updated with industry trends to deliver modern, cutting-edge solutions.
                                     </h1>
                                     <h1 className="mt-5 text-[18px] text-darkText">
                                           Fast-forward to today, and I had the privilege of working at an advertising agency, a start-up, a huge corporation, and a student-led design studio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio rem accusantium fugiat veritatis, quidem repellat ab natus possimus? Sint, accusamus!

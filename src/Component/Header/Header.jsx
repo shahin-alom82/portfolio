@@ -7,11 +7,11 @@ import resume from "../../assets/image/shahin.pdf"; // Ensure this is the correc
 
 const navLink = [
       { title: "Home", path: "home", value: "" },
-      { title: "About", path: "about", value: "01", delay: 0.1 },
-      { title: "Education", path: "education", value: "02", delay: 0.2 },
-      { title: "Skills", path: "skills", value: "03", delay: 0.3 },
-      { title: "Projects", path: "projects", value: "04", delay: 0.4 },
-      { title: "Contact", path: "email", value: "05", delay: 0.5 }
+      { title: "About", path: "about",  delay: 0.1 },
+      { title: "Education", path: "education",  delay: 0.2 },
+      { title: "Skills", path: "skills",  delay: 0.3 },
+      { title: "Projects", path: "projects",  delay: 0.4 },
+      { title: "Contact", path: "email",  delay: 0.5 }
 ];
 
 const Header = () => {

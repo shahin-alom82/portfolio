@@ -33,7 +33,7 @@ const Banner = () => {
                               </h1>
 
                               <h1
-                                    className="lg:text-6xl text-3xl font-bold mt-5">Shahin Alom.
+                                    className="lg:text-6xl text-3xl font-bold mt-5 uppercase">Shahin Alom.
                               </h1>
                               <div className="lg:text-6xl text-3xl font-semibold text-designColor mt-5">
                                     <Typewriter
