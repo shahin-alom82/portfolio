@@ -7,11 +7,11 @@ import resume from "../../assets/image/shahin.pdf"; // Ensure this is the correc
 
 const navLink = [
       { title: "Home", path: "home", value: "" },
-      { title: "About", path: "about",  delay: 0.1 },
-      { title: "Education", path: "education",  delay: 0.2 },
-      { title: "Skills", path: "skills",  delay: 0.3 },
-      { title: "Projects", path: "projects",  delay: 0.4 },
-      { title: "Contact", path: "email",  delay: 0.5 }
+      { title: "About", path: "about", delay: 0.1 },
+      { title: "Education", path: "education", delay: 0.2 },
+      { title: "Skills", path: "skills", delay: 0.3 },
+      { title: "Projects", path: "projects", delay: 0.4 },
+      { title: "Contact", path: "email", delay: 0.5 }
 ];
 
 const Header = () => {
@@ -73,7 +73,7 @@ const Header = () => {
                                     target="_blank" // Optional: Opens in new tab
                                     className="lg:px-8 lg:py-3 px-4 py-1 rounded-md font-medium text-designColor lg:text-[16px] tracking-wider uppercase border border-designColor hover:bg-hoverColor duration-200"
                               >
-                                    Download Resume
+                                    Resume
                               </motion.a>
                         </div>
 
