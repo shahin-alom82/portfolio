@@ -71,7 +71,7 @@ const Header = () => {
                                     href={resume} // Correct href for the resume download
                                     download="resume.pdf" // Sets the download name
                                     target="_blank" // Optional: Opens in new tab
-                                    className="lg:px-8 lg:py-3 px-4 py-1 rounded-md font-medium text-designColor lg:text-[16px] tracking-wider uppercase border border-designColor hover:bg-hoverColor duration-200"
+                                    className="lg:px-8 lg:py-2 px-4 py-1 rounded-md font-medium text-designColor lg:text-[16px] tracking-wider uppercase border border-designColor hover:bg-hoverColor duration-200"
                               >
                                     Resume
                               </motion.a>
