@@ -54,7 +54,7 @@ const Project = () => {
                               {project.map((project, index) => (
                                     <motion.div
                                           key={index}
-                                          className="flex flex-col w-64 border-4 border-cyan-500 px-3 py-3 shadow-2xl  rounded-lg  bg-[#031E5B] transition duration-500 h-full"
+                                          className="flex flex-col w-64 border-2 border-cyan-500 px-3 py-3 shadow-2xl  rounded-lg  transition duration-500 h-full"
                                     >
                                           <div className="overflow-hidden rounded-t-md h-60">
                                                 <motion.img
@@ -74,7 +74,7 @@ const Project = () => {
                                                       {project.tech.map((tech, techIndex) => (
                                                             <li
                                                                   key={techIndex}
-                                                                  className="bg-slate-950 bg-opacity-45 px-2 py-1 rounded-md m-1 transition-transform transform hover:scale-110 hover:text-designColor"
+                                                                  className="border border-gray-500 tracking-wide text-xs cursor-pointer opacity-85 font-medium text-white bg-opacity-45 px-2 py-1 rounded m-1 hover:text-designColor"
                                                             >
                                                                   {tech}
                                                             </li>
@@ -84,7 +84,7 @@ const Project = () => {
                                           <div className="flex justify-between items-center mt-4 mb-1">
                                                 <Link to={project.liveLink}>
                                                       <motion.button
-                                                            className="text-white text-sm border-2 border-cyan-500  rounded-full px-3 py-1  hover:bg-slate-900 transition duration-300"
+                                                            className="text-white text-sm border-2 border-cyan-500  rounded-full px-3 py-1  hover:bg-slate-900  duration-300"
                                                             whileHover={{ scale: 1.1 }}
                                                       >
                                                             Live Link
@@ -92,7 +92,7 @@ const Project = () => {
                                                 </Link>
                                                 <Link to={project.githubLink}>
                                                       <motion.button
-                                                            className="text-white border-2 text-sm border-cyan-500  rounded-full px-6 py-1  hover:bg-slate-900 transition duration-300"
+                                                            className="text-white border-2 text-sm border-cyan-500  rounded-full px-6 py-1  hover:bg-slate-900  duration-300"
                                                             whileHover={{ scale: 1.1 }}
                                                       >
                                                             GitHub
