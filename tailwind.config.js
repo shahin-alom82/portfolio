@@ -16,9 +16,6 @@ export default {
       fontFamily : {
         bodyFont : ["Montserrat", "sans-serif"],
       },
-  //  backgroundImage: {
-  //   "banner":"url('./public/banner.jpg')"
-  //  }
     },
   },
   plugins: [

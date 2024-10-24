@@ -14,18 +14,12 @@ const Home = () => {
                   <Header />
                   <Banner />
                   <About />
-                  {/* <Experience /> */}
                   <Projects />
                   <ScrollBar />
                   <OtherSection />
                   <Skils/>
                   <Education />
                   <Email />
-                  {/* Archive */}
-                  {/* Contact */}
-                  {/* Leftsite */}
-                  {/* Rightsite */}
-                  {/* Scrollbtn */}
             </main >
       );
 };
