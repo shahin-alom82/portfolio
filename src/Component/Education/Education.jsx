@@ -19,8 +19,8 @@ const Education = () => {
 
                                                 {/* Text Section */}
                                                 <div className="text-center mt-6">
-                                                      <h1 className="text-[22px] font-medium text-white tracking-wide">{item?.name}</h1>
-                                                      <h2 className="text-xl mt-2 text-cyan-300 tracking-wide">{item?.title}</h2>
+                                                      <h1 className="text-[22px] font-medium text-white tracking-wide px-2">{item?.name}</h1>
+                                                      <h2 className="text-xl mt-2 text-cyan-300 tracking-wide px-2">{item?.title}</h2>
 
                                                       {/* Description Section */}
                                                       <p className="mt-4 px-6 text-gray-400 text-sm tracking-wide">

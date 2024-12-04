@@ -3,7 +3,7 @@
 import { motion } from "framer-motion";
 import Container from "../Container/Container";
 import { Link } from "react-router-dom";
-import { img1, img2, img3, img4 } from "../../assets";
+import {  img2,  img4, productbd } from "../../assets";
 
 const Project = () => {
       const project = [
@@ -15,19 +15,11 @@ const Project = () => {
                   githubLink: "https://github.com/shahin-alom82/E-Commerce-Shofy",
             },
             {
-                  img: img1,
-                  title: "E-Commerce-Shopping",
-                  tech: ["Next.js", "TypeScript", "Redux", "Next Auth"],
-                  liveLink: "https://ecommerceshopping.vercel.app/",
-                  githubLink: "https://github.com/shahin-alom82/shopping",
-            },
-            {
-                  img: img3,
-                  title: "Summer-Sale",
-                  tech: ["React.js", "Mongodb", "Firebase", "Express"],
-                  liveLink: "https://shahin-alom82.github.io/Assignment-5/",
-                  githubLink:
-                        "https://github.com/shahin-alom82/Assignment-5",
+                  img: productbd,
+                  title: "Productbd Application",
+                  tech: ["React.js", "Mongodb", "Redux"],
+                  liveLink: "https://ecommercebd.vercel.app/",
+                  githubLink: "https://github.com/shahin-alom82/ecommerceproduct",
             },
             {
                   img: img4,
@@ -50,11 +42,11 @@ const Project = () => {
                               </motion.span>
                               <motion.h1 className="text-xl">My Projects</motion.h1>
                         </div>
-                        <div className="grid md:grid-cols-4 lg:grid-cols-4 grid-cols-1 lg:ml-0 ml-1 lg:gap-10 gap-4">
+                        <div className="grid md:grid-cols-3 lg:grid-cols-3 grid-cols-1 lg:ml-0 ml-1 lg:gap-6 gap-4">
                               {project.map((project, index) => (
                                     <motion.div
                                           key={index}
-                                          className="flex flex-col w-64 border-2 border-cyan-500 px-3 py-3 shadow-2xl  rounded-lg  transition duration-500 h-full"
+                                          className="flex flex-col w-full border-2 border-cyan-500 px-3 py-3 shadow-2xl  rounded-lg  transition duration-500 h-full"
                                     >
                                           <div className="overflow-hidden rounded-t-md h-60">
                                                 <motion.img
@@ -81,7 +73,7 @@ const Project = () => {
                                                       ))}
                                                 </ul>
                                           </div>
-                                          <div className="flex justify-between items-center mt-4 mb-1">
+                                          <div className="flex items-center gap-8 mt-4 mb-1">
                                                 <Link to={project.liveLink}>
                                                       <motion.button
                                                             className="text-white text-sm border-2 border-cyan-500  rounded-full px-3 py-1  hover:bg-slate-900  duration-300"

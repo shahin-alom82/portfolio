@@ -8,4 +8,5 @@ import people from "./image/peoplentech.png"
 import progranning from "./image/company.png"
 import habiganj from "./image/habiganj.jpg"
 import pdf from "./image/shahin.pdf"
-export { logo, shahin, img1, img2, img3, img4, pdf, people, progranning, habiganj }
+import productbd from "./image/productbd.png"
+export { logo, shahin, img1, img2, img3, img4, pdf, people, progranning, habiganj, productbd }
