@@ -7,7 +7,7 @@ const Fotter = () => {
       return (
             <Container className={"lg:gap-4 lg:px-20"}>
                   <footer className="mt-20 flex flex-col lg:flex-row items-center justify-between py-10 border-t border-cyan-300 ">
-                        <span className="lg:text-[14px] text-[13px] text-darkText" >© 2024 <a>Your Name™</a>. All Rights Reserved.</span>
+                        <span className="lg:text-[14px] text-[13px] text-darkText" >© 2025 <a>Your Name™</a>. All Rights Reserved.</span>
                         <div className='flex items-center gap-4 lg:mt-0 mt-6'>
                               <a href="https://github.com/shahin-alom82" className='text-darkText border border-darkText py-1.5 px-1.5 rounded-full'><FaGithub size={15} /></a>
                               <a href="https://www.facebook.com/mdshahinalom.mdshahinalom.92" className='text-darkText border border-darkText py-1.5 px-1.5 rounded-full'><FaFacebook size={15} /></a>

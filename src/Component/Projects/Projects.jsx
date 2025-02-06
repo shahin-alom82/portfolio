@@ -3,30 +3,30 @@
 import { motion } from "framer-motion";
 import Container from "../Container/Container";
 import { Link } from "react-router-dom";
-import {  img2,  img4, productbd } from "../../assets";
+import { img2, img4, productbd } from "../../assets";
 
 const Project = () => {
       const project = [
             {
-                  img: img2,
-                  title: "E-Commerce-Shofy",
-                  tech: ["Next.js", "TypeScript", "Redux", "Next Auth"],
-                  liveLink: "https://shofyecommerce.vercel.app/",
-                  githubLink: "https://github.com/shahin-alom82/E-Commerce-Shofy",
+                  img: img4,
+                  title: "Shoppers Application",
+                  tech: ["React.js", "Mongodb", "Redux"],
+                  liveLink: "https://esproduct.vercel.app/",
+                  githubLink: "https://github.com/shahin-alom82/shoppers",
             },
             {
                   img: productbd,
-                  title: "Productbd Application",
-                  tech: ["React.js", "Mongodb", "Redux"],
-                  liveLink: "https://ecommercebd.vercel.app/",
-                  githubLink: "https://github.com/shahin-alom82/ecommerceproduct",
+                  title: "Plant Shop Application",
+                  tech: ["Next.js","Persist", "Redux", "Next Auth"],
+                  liveLink: "https://ecommerceplantshop.vercel.app/",
+                  githubLink: "https://github.com/shahin-alom82/ecommerceplantshop",
             },
             {
-                  img: img4,
-                  title: "E-Commerce-Smart",
-                  tech: ["Next.js", "Redux Tolkit", "Next Auth", "Persist Store"],
-                  liveLink: "https://ecommercesmart.vercel.app/",
-                  githubLink: "https://github.com/shahin-alom82/e.commerce-smart",
+                  img: img2,
+                  title: "Shofy Application",
+                  tech: ["Next.js", "TypeScript", "Redux", "Next Auth"],
+                  liveLink: "https://shofyecommerce.vercel.app/",
+                  githubLink: "https://github.com/shahin-alom82/E-Commerce-Shofy",
             },
       ];
 
@@ -59,7 +59,7 @@ const Project = () => {
                                                 />
                                           </div>
                                           <div className="flex-grow mt-4">
-                                                <h3 className="text-lg font-bold text-white mb-2">
+                                                <h3 className="text-lg font-medium tracking-wide text-white mb-2 uppercase">
                                                       {project.title}
                                                 </h3>
                                                 <ul className="flex text-start flex-wrap text-xs font-medium">
