@@ -11,7 +11,7 @@ const Fotter = () => {
                         <div className='flex items-center gap-4 lg:mt-0 mt-6'>
                               <a href="https://github.com/shahin-alom82" className='text-darkText border border-darkText py-1.5 px-1.5 rounded-full'><FaGithub size={15} /></a>
                               <a href="https://www.facebook.com/mdshahinalom.mdshahinalom.92" className='text-darkText border border-darkText py-1.5 px-1.5 rounded-full'><FaFacebook size={15} /></a>
-                              <a href="https://www.linkedin.com/in/md-shahin-alom-004797328/" className='text-darkText border border-darkText py-1.5 px-1.5 rounded-full'><FaLinkedin size={15} /></a>
+                              <a href="https://www.linkedin.com/in/md-shahin-alom-942275331/" className='text-darkText border border-darkText py-1.5 px-1.5 rounded-full'><FaLinkedin size={15} /></a>
                               <a href="https://www.instagram.com/sa3511371/" className='text-darkText border border-darkText py-1.5 px-1.5 rounded-full'><FaInstagramSquare size={15} /></a>
                               <a href="https://x.com/ShahinAlom60364" className='text-darkText border border-darkText py-1.5 px-1.5 rounded-full'><FaSquareXTwitter size={15} /></a>
                               <a href="https://www.youtube.com/" className='text-darkText border border-darkText py-1.5 px-1.5 rounded-full'><FaYoutube size={15} /></a>
